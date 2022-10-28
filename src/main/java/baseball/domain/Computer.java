@@ -25,11 +25,11 @@ public class Computer {
         return computerNumber;
     }
 
-    public int createRandomNumber() {
+    private int createRandomNumber() {
         return Randoms.pickNumberInRange(1, 9);
     }
 
-    public boolean isDuplicated(int number) {
+    private boolean isDuplicated(int number) {
         return computerNumber.contains(number);
     }
 }
