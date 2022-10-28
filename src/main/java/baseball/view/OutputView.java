@@ -22,6 +22,7 @@ public class OutputView {
         if(ballNumber != 0) {
             System.out.println(ballNumber + BALL);
         }
+
     }
 
     public static void printNothing() {
