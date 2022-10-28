@@ -16,6 +16,7 @@ public class CheckTotalGameStatus {
         this.computerNumber = computerNumber;
         setGameState();
     }
+
     public int getStrikeNumber() {
         return strikeNumber;
     }
